@@ -37,7 +37,7 @@ public class ExercisesOfStreams {
         Collections.sort(names4, (a, b) -> a.compareTo(b));
 
         System.out.println(names4);
-        // the final version
+        // the final version (sorting in one way)
         List<String> names5 = Arrays.asList("peter", "mara", "xenia", "mark", "andrev", "lalaluna");
         names5.sort(String::compareTo);
 
